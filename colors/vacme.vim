@@ -182,7 +182,14 @@ hi! link SignColumn LineNr
 " Conceal
 " EndOfBuffer
 
-exe "hi! DiffAdd"    ."ctermfg=".s:GC1
+    let s:G1  = '#EFFEEC'
+    let s:G2  = '#98CE8F'
+    let s:G3  = '#57864E'
+    let s:GC1 = '194'
+    let s:GC2 = '10'
+    let s:GC3 = '02'
+
+hi! link DiffAdd Pmenu
 " DiffChange
 " DiffDelete
 " DiffText
