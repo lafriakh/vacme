@@ -183,7 +183,7 @@ hi! link SignColumn LineNr
 " EndOfBuffer
 
 exe "hi! DiffAdd"         ." guifg=".s:G3    ." ctermfg=".s:GC3    ." guibg=".s:G1    ." ctermbg=".s:GC1
-exe "hi! DiffChange guifg=NONE ctermfg=NONE guibg=NONE ctermbg=NONE
+" exe "hi! DiffChange guifg=NONE ctermfg=NONE guibg=NONE ctermbg=NONE
 exe "hi! DiffDelete"      ." guifg=".s:R3    ." ctermfg=".s:RC3    ." guibg=".s:R1    ." ctermbg=".s:RC1
 exe "hi! DiffText"        ." guifg=".s:G3    ." ctermfg=".s:GC3    ." guibg=".s:G1    ." ctermbg=".s:GC1
 
