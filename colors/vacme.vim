@@ -182,17 +182,10 @@ hi! link SignColumn LineNr
 " Conceal
 " EndOfBuffer
 
-    let s:G1  = '#EFFEEC'
-    let s:G2  = '#98CE8F'
-    let s:G3  = '#57864E'
-    let s:GC1 = '194'
-    let s:GC2 = '10'
-    let s:GC3 = '02'
-
-hi! link DiffAdd Pmenu
-" DiffChange
-" DiffDelete
-" DiffText
+exe "hi! DiffAdd"         ." guifg=".s:G3    ." ctermfg=".s:GC3    ." guibg=".s:G1    ." ctermbg=".s:GC1
+exe "hi! DiffChange"      ." guifg=".s:C3    ." ctermfg=".s:CC3    ." guibg=".s:C1    ." ctermbg=".s:CC1
+exe "hi! DiffDelete"      ." guifg=".s:R3    ." ctermfg=".s:RC3    ." guibg=".s:R1    ." ctermbg=".s:RC1
+exe "hi! DiffText"        ." guifg=".s:G3    ." ctermfg=".s:GC3    ." guibg=".s:G1    ." ctermbg=".s:GC1
 
 exe "hi! ErrorMsg"       ." cterm=bold"
 exe "hi! ModeMsg"        ." cterm=bold"
