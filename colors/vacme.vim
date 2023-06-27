@@ -182,7 +182,7 @@ hi! link SignColumn LineNr
 " Conceal
 " EndOfBuffer
 
-" DiffAdd
+exe "hi! DiffAdd"    ."ctermfg=".s:GC1
 " DiffChange
 " DiffDelete
 " DiffText
